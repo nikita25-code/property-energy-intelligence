@@ -1,0 +1,121 @@
+{
+  "question": "Which schools built before 1970 have the worst energy ratings?",
+  "planner": "rules",
+  "interpreted_plan": {
+    "intent": "worst_energy",
+    "building_type": "School",
+    "built_before": 1970,
+    "limit": 10
+  },
+  "verified_answer": "10 records returned (up to 10); worst displayed grade G. Excludes unknown ratings.",
+  "row_count": 10,
+  "rows": [
+    {
+      "id": "P05622",
+      "name": "West School 05622 (fictional)",
+      "building_type": "School",
+      "built_year": 1914,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.8,
+      "estimated_maintenance_cost_dkk": 1468145.25
+    },
+    {
+      "id": "P01384",
+      "name": "South School 01384 (fictional)",
+      "building_type": "School",
+      "built_year": 1918,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.7,
+      "estimated_maintenance_cost_dkk": 2381460.95
+    },
+    {
+      "id": "P01539",
+      "name": "West School 01539 (fictional)",
+      "building_type": "School",
+      "built_year": 1895,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.6,
+      "estimated_maintenance_cost_dkk": 3188277.65
+    },
+    {
+      "id": "P03095",
+      "name": "Harbour School 03095 (fictional)",
+      "building_type": "School",
+      "built_year": 1904,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.6,
+      "estimated_maintenance_cost_dkk": 1786277.45
+    },
+    {
+      "id": "P00673",
+      "name": "West School 00673 (fictional)",
+      "building_type": "School",
+      "built_year": 1919,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.4,
+      "estimated_maintenance_cost_dkk": 8353620.05
+    },
+    {
+      "id": "P01090",
+      "name": "South School 01090 (fictional)",
+      "building_type": "School",
+      "built_year": 1918,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.4,
+      "estimated_maintenance_cost_dkk": 9420706.35
+    },
+    {
+      "id": "P01390",
+      "name": "Harbour School 01390 (fictional)",
+      "building_type": "School",
+      "built_year": 1913,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.4,
+      "estimated_maintenance_cost_dkk": 8310346.2
+    },
+    {
+      "id": "P02164",
+      "name": "East School 02164 (fictional)",
+      "building_type": "School",
+      "built_year": 1911,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.4,
+      "estimated_maintenance_cost_dkk": 10857402.15
+    },
+    {
+      "id": "P02285",
+      "name": "South School 02285 (fictional)",
+      "building_type": "School",
+      "built_year": 1918,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.4,
+      "estimated_maintenance_cost_dkk": 7762925.2
+    },
+    {
+      "id": "P02459",
+      "name": "Harbour School 02459 (fictional)",
+      "building_type": "School",
+      "built_year": 1895,
+      "energy_rating": "G",
+      "energy_score": 7,
+      "priority_score": 93.4,
+      "estimated_maintenance_cost_dkk": 10034229.35
+    }
+  ],
+  "sql": "SELECT p.id, p.name, p.building_type, p.built_year, p.energy_rating, p.energy_score, p.priority_score, p.estimated_maintenance_cost_dkk FROM properties p WHERE 1 = 1 AND p.building_type = ? AND p.built_year < ? AND p.energy_score IS NOT NULL ORDER BY p.energy_score DESC, p.priority_score DESC, p.id ASC LIMIT ?",
+  "sql_parameters": [
+    "School",
+    1970,
+    10
+  ],
+  "evidence": "Returned rows are computed by read-only SQLite; monetary values are scenario estimates."
+}

@@ -1,0 +1,29 @@
+{
+  "source": "synthetic_seed=42;count=6000",
+  "scenario_as_of_year": 2026,
+  "generated_at_utc": "2026-10-28T18:46:15.012160+00:00",
+  "properties": {
+    "source_rows": 6023,
+    "loaded": 5975,
+    "quarantined": 48,
+    "year_imputed": 163,
+    "area_imputed": 220,
+    "energy_unknown": 154
+  },
+  "components": {
+    "source_rows": 24017,
+    "loaded": 23811,
+    "quarantined": 206,
+    "year_imputed": 431
+  },
+  "hierarchy": {
+    "sites": 2006,
+    "systems": 23811,
+    "assets": 53572,
+    "inspections": 53572,
+    "interventions": 37508,
+    "not_inspected_systems": 7551
+  },
+  "database_path": "/app/state/property_energy.sqlite3",
+  "note": "Assumption-based scenario costs, not observed maintenance costs or a trained ML forecast."
+}

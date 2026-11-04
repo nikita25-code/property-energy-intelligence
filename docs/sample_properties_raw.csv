@@ -1,0 +1,9 @@
+id,name,building_type,district,built_year,floor_area_m2,energy_rating,last_audit
+P00001,North Administrative Office 00001 (fictional),Administrative Office,North,1965,, D ,21/11/2019
+P00002,North Daycare 00002 (fictional),Daycare,North,1953,4533.72, D ,2025-02-09
+P00003,East Administrative Office 00003 (fictional),Administrative Office,East,2004,5229.85, A ,2024-06-14
+P00004,Central School 00004 (fictional),School,Central,1895,8046.97,f,10/07/2020
+P00005,South Administrative Office 00005 (fictional),Administrative Office,South,1912,5272.24, F ,03/05/2023
+P00006,North School 00006 (fictional),School,North,1955,2703.94,unknown,22/07/2020
+P00007,Central Sports Facility 00007 (fictional),Sports Facility,Central,1975,12193.62, D ,2023-04-30
+P00008,East Administrative Office 00008 (fictional),Administrative Office,East,2020,1621.26, E ,07/06/2025

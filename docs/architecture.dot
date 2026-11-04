@@ -1,0 +1,28 @@
+digraph G {
+  graph [fontname="DejaVu Sans", bgcolor="transparent", rankdir="TB", nodesep=.65, ranksep=.95, pad=.35, splines=polyline];
+  node [shape=box, fontname="DejaVu Sans", fontsize=14, margin="0.27,0.20", style="rounded,filled", fillcolor="#F2F7F9", color="#CBDCE3", fontcolor="#183146", penwidth=1.5];
+  edge [color="#7DA49F", penwidth=1.7, arrowsize=.75];
+  subgraph cluster_in {label="01 · SOURCE & VALIDATION"; color="#C9E2DB"; style="rounded,dashed";
+    src [label="Fictional CSV input\n6,000 candidate properties"];
+    pipe [label="Python + Pydantic\nIngest / normalize / quarantine"];
+    quality [label="Data quality audit",fillcolor="#FFF4E1",color="#E4B974"];
+    src -> pipe; pipe -> quality;
+  }
+  subgraph cluster_data {label="02 · AUDITABLE DATA MODEL"; color="#C9E2DB"; style="rounded,dashed";
+    db [label="SQLite\nValidated building portfolio",fillcolor="#E8F7F0",color="#81C5AF"];
+    hierarchy [label="Site → Building → System\n→ Asset → Inspection"];
+    invest [label="Interventions\nQuantity × rate × condition"];
+    db -> hierarchy -> invest;
+  }
+  subgraph cluster_delivery {label="03 · DECISION SUPPORT"; color="#C9E2DB"; style="rounded,dashed";
+    plan [label="2027–2030 roadmap\nBudgets · Dependencies · NPV",fillcolor="#FFF4E1",color="#E4B974"];
+    api [label="Read-only FastAPI\nParameterized SQL",fillcolor="#E6F2FC",color="#98B7E0"];
+    ui [label="ATLAS Frontend\nPortfolio · Assets · Roadmap · Ask",fillcolor="#E8F7F0",color="#81C5AF"];
+    agent [label="Question → typed plan\nSELECT evidence · optional LLM"];
+    plan -> api -> ui;
+    api -> agent;
+  }
+  pipe -> db;
+  invest -> plan;
+  db -> api;
+}

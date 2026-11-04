@@ -1,0 +1,49 @@
+id,name,building_type,district,built_year,floor_area_m2,energy_rating,last_audit,reason
+P00100,Central School 00100 (fictional),School,Central,1800x,11490.25, E ,2020-01-17,invalid literal for int() with base 10: '1800x'
+P00202,North School 00202 (fictional),School,North,1800x,12395.61, A ,2023/03/20,invalid literal for int() with base 10: '1800x'
+P00251,North Daycare 00251 (fictional),Daycare,North,1955,2974.04, E ,2025-08-10,Duplicate property ID (valid first record retained)
+P00331,West Library 00331 (fictional),Library,West,1800x,1442.42, B ,2024/10/23,invalid literal for int() with base 10: '1800x'
+P00502,North Sports Facility 00502 (fictional),Sports Facility,North,1913,6214.63, E ,2025-10-14,Duplicate property ID (valid first record retained)
+P00610,Harbour School 00610 (fictional),School,Harbour,1800x,8890.13, E ,26/03/2025,invalid literal for int() with base 10: '1800x'
+P00753,Harbour Administrative Office 00753 (fictional),Administrative Office,Harbour,1915,3022.55, C ,16/09/2021,Duplicate property ID (valid first record retained)
+P01004,North Daycare 01004 (fictional),Daycare,North,1988,812.64, D ,02/03/2025,Duplicate property ID (valid first record retained)
+P01048,East Daycare 01048 (fictional),Daycare,East,1800x,4025.93, E ,2023/05/13,invalid literal for int() with base 10: '1800x'
+P01255,South School 01255 (fictional),School,South,1966,10489.13, C ,2024/01/25,Duplicate property ID (valid first record retained)
+P01417,Central Health Clinic 01417 (fictional),Health Clinic,Central,1800x,323.20, D ,25/02/2021,invalid literal for int() with base 10: '1800x'
+P01506,North School 01506 (fictional),School,North,2004,2546.51, C ,07/01/2024,Duplicate property ID (valid first record retained)
+P01755,North Administrative Office 01755 (fictional),Administrative Office,North,1800x,3943.42, G ,2025-08-31,invalid literal for int() with base 10: '1800x'
+P01757,West Daycare 01757 (fictional),Daycare,West,1905,1887.92, D ,08/10/2023,Duplicate property ID (valid first record retained)
+P01807,North Daycare 01807 (fictional),Daycare,North,1800x,5117.72, G ,26/09/2019,invalid literal for int() with base 10: '1800x'
+P02008,West School 02008 (fictional),School,West,1961,8430.31, B ,2024-04-07,Duplicate property ID (valid first record retained)
+P02259,Central Daycare 02259 (fictional),Daycare,Central,1940,5160.55,N/A,2023-06-18,Duplicate property ID (valid first record retained)
+P02463,West Health Clinic 02463 (fictional),Health Clinic,West,1800x,600.54, D ,2023-11-21,invalid literal for int() with base 10: '1800x'
+P02510,East Daycare 02510 (fictional),Daycare,East,2012,3945.35, A ,2025-06-22,Duplicate property ID (valid first record retained)
+P02761,North School 02761 (fictional),School,North,2013,3588.68, A ,2025/12/20,Duplicate property ID (valid first record retained)
+P03012,South School 03012 (fictional),School,South,1972,4396.54, D ,2019-11-14,Duplicate property ID (valid first record retained)
+P03104,South Sports Facility 03104 (fictional),Sports Facility,South,1800x,4217.23, C ,18/11/2022,invalid literal for int() with base 10: '1800x'
+P03263,North School 03263 (fictional),School,North,1948,6433.49, E ,2023-02-27,Duplicate property ID (valid first record retained)
+P03429,East School 03429 (fictional),School,East,1800x,9561.10, D ,2023/01/07,invalid literal for int() with base 10: '1800x'
+P03514,Harbour School 03514 (fictional),School,Harbour,unknown,7338.67, C ,2020/05/18,Duplicate property ID (valid first record retained)
+P03522,North Library 03522 (fictional),Library,North,1800x,5703.65, D ,2024/03/09,invalid literal for int() with base 10: '1800x'
+P03684,South School 03684 (fictional),School,South,1800x,2637.10, C ,17/10/2020,invalid literal for int() with base 10: '1800x'
+P03765,West Daycare 03765 (fictional),Daycare,West,1917,2760.82, E ,22/11/2020,Duplicate property ID (valid first record retained)
+P04016,Central Health Clinic 04016 (fictional),Health Clinic,Central,1928,5663.73, C ,2020/05/12,Duplicate property ID (valid first record retained)
+P04032,South Administrative Office 04032 (fictional),Administrative Office,South,1800x,4625.64, A ,10/01/2025,invalid literal for int() with base 10: '1800x'
+P04042,North Sports Facility 04042 (fictional),Sports Facility,North,1800x,9924.48, A ,2023/11/17,invalid literal for int() with base 10: '1800x'
+P04212,Central School 04212 (fictional),School,Central,1800x,10150.71, G ,2024-04-05,invalid literal for int() with base 10: '1800x'
+P04213,West Administrative Office 04213 (fictional),Administrative Office,West,1800x,4043.00, B ,29/01/2024,invalid literal for int() with base 10: '1800x'
+P04221,South Daycare 04221 (fictional),Daycare,South,1800x,5499.23,e,04/03/2024,invalid literal for int() with base 10: '1800x'
+P04267,South Daycare 04267 (fictional),Daycare,South,1940,4372.34, E ,23/05/2023,Duplicate property ID (valid first record retained)
+P04279,West Library 04279 (fictional),Library,West,1800x,1827.12, E ,2025/07/28,invalid literal for int() with base 10: '1800x'
+P04333,Harbour School 04333 (fictional),School,Harbour,1800x,7592.60, B ,2025/06/12,invalid literal for int() with base 10: '1800x'
+P04518,West School 04518 (fictional),School,West,1897,7376.55, F ,08/02/2023,Duplicate property ID (valid first record retained)
+P04769,East Daycare 04769 (fictional),Daycare,East,1975,596.97, F ,2023/09/29,Duplicate property ID (valid first record retained)
+P05020,Harbour School 05020 (fictional),School,Harbour,1950,12792.67, E ,2021-07-21,Duplicate property ID (valid first record retained)
+P05087,West Daycare 05087 (fictional),Daycare,West,1800x,950.62, B ,2024-08-19,invalid literal for int() with base 10: '1800x'
+P05271,West Health Clinic 05271 (fictional),Health Clinic,West,1973,4133.96, C ,18/04/2023,Duplicate property ID (valid first record retained)
+P05310,Central Sports Facility 05310 (fictional),Sports Facility,Central,1800x,12363.20, A ,2022-02-20,invalid literal for int() with base 10: '1800x'
+P05420,East Daycare 05420 (fictional),Daycare,East,1800x,2544.00, B ,10/03/2025,invalid literal for int() with base 10: '1800x'
+P05522,East Administrative Office 05522 (fictional),Administrative Office,East,1989,5488.69, A ,2024-07-19,Duplicate property ID (valid first record retained)
+P05661,West School 05661 (fictional),School,West,1800x,1153.16, E ,2024/08/31,invalid literal for int() with base 10: '1800x'
+P05685,South Health Clinic 05685 (fictional),Health Clinic,South,1800x,4826.83,c,2021-02-25,invalid literal for int() with base 10: '1800x'
+P05773,West Administrative Office 05773 (fictional),Administrative Office,West,NULL,694.39, A ,2021-04-07,Duplicate property ID (valid first record retained)

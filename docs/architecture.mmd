@@ -1,0 +1,17 @@
+flowchart LR
+    A[Seeded fictional CSVs] --> B[Python ingestion + Pydantic]
+    B --> C[(SQLite · validated buildings)]
+    B --> Q[Quarantine + quality report]
+    C --> D[Site / Building / System]
+    D --> E[Assets + Inspections]
+    E --> F[Candidate Interventions]
+    F --> G[Quantity-based cost & assumed savings]
+    G --> H[Budget + dependency planning 2027–2030]
+    G --> I[Read-only FastAPI]
+    C --> I
+    H --> I
+    I --> J[ATLAS dashboard: Explore / Planning / Methodology]
+    I --> K[NL question → typed plan → bound SQL → evidence]
+    style C fill:#e9f5f1,stroke:#1d8776,color:#173d36
+    style H fill:#fff3df,stroke:#dc9643,color:#603912
+    style I fill:#e8f0fa,stroke:#4f77aa,color:#1a3559

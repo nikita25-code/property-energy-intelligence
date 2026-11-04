@@ -1,0 +1,207 @@
+id,property_id,component_type,condition_score,installed_year,last_serviced,reason
+P00063-WINDOWS,P00063,Windows,bad,2022,,invalid literal for int() with base 10: 'bad'
+P00064-HVAC,P00064,HVAC,bad,1934,29/01/2018,invalid literal for int() with base 10: 'bad'
+P00073-HVAC,P00073,hvac,bad,1906,2024/11/28,invalid literal for int() with base 10: 'bad'
+P00100-HVAC,P00100,HVAC,2,2024,2020-01-25,Parent property missing or quarantined
+P00100-INSULATION,P00100,Insulation,4,1965,24/01/2017,Parent property missing or quarantined
+P00100-ROOF,P00100,Roof,3,1993,2023-01-25,Parent property missing or quarantined
+P00100-WINDOWS,P00100,Windows,5,1973,2021-05-04,Parent property missing or quarantined
+P00202-HVAC,P00202,HVAC,5,2006,2025-09-25,Parent property missing or quarantined
+P00202-INSULATION,P00202,Insulation,4,1980,2019/02/12,Parent property missing or quarantined
+P00202-ROOF,P00202,Roof,3,2025,2018-07-16,Parent property missing or quarantined
+P00202-WINDOWS,P00202,Windows,5,1975,2016/03/02,Parent property missing or quarantined
+P00215-WINDOWS,P00215,Windows,bad,1996,10/12/2017,invalid literal for int() with base 10: 'bad'
+P00312-HVAC,P00312,HVAC,bad,,2025-06-28,invalid literal for int() with base 10: 'bad'
+P00331-HVAC,P00331,HVAC,3,2020,06/04/2020,Parent property missing or quarantined
+P00331-INSULATION,P00331,Insulation,3,2002,2023-07-29,Parent property missing or quarantined
+P00331-ROOF,P00331,Roof,3,2004,2024/07/25,Parent property missing or quarantined
+P00331-WINDOWS,P00331,Windows,4,2008,20/10/2025,Parent property missing or quarantined
+P00337-HVAC,P00337,HVAC,3,1996,04/05/2018,Duplicate component ID (valid first record retained)
+P00438-HVAC,P00438,HVAC,bad,1979,05/02/2021,invalid literal for int() with base 10: 'bad'
+P00445-HVAC,P00445,HVAC,bad,2016,29/09/2018,invalid literal for int() with base 10: 'bad'
+P00527-WINDOWS,P00527,windows,bad,1991,2023-01-20,invalid literal for int() with base 10: 'bad'
+P00545-WINDOWS,P00545,Windows,bad,1945,2017/08/24,invalid literal for int() with base 10: 'bad'
+P00553-INSULATION,P00553,Insulation,bad,2001,2020/06/17,invalid literal for int() with base 10: 'bad'
+P00554-WINDOWS,P00554,Windows,bad,1924,13/03/2019,invalid literal for int() with base 10: 'bad'
+P00610-HVAC,P00610,HVAC,4,2011,2021/04/03,Parent property missing or quarantined
+P00610-INSULATION,P00610,Insulation,5,1979,2022-08-10,Parent property missing or quarantined
+P00610-ROOF,P00610,roof,5,1981,19/07/2020,Parent property missing or quarantined
+P00610-WINDOWS,P00610,Windows,3,1992,09/04/2019,Parent property missing or quarantined
+P00656-INSULATION,P00656,Insulation,bad,2024,07/09/2021,invalid literal for int() with base 10: 'bad'
+P00674-HVAC,P00674,HVAC,3,2001,2022/12/24,Duplicate component ID (valid first record retained)
+P00697-HVAC,P00697,HVAC,bad,2025,12/10/2018,invalid literal for int() with base 10: 'bad'
+P00703-INSULATION,P00703,Insulation,bad,1935,14/02/2025,invalid literal for int() with base 10: 'bad'
+P00907-ROOF,P00907,Roof,bad,1958,2017-12-06,invalid literal for int() with base 10: 'bad'
+P00932-ROOF,P00932,Roof,bad,2025,2024-01-28,invalid literal for int() with base 10: 'bad'
+P00963-HVAC,P00963,HVAC,bad,2015,24/07/2023,invalid literal for int() with base 10: 'bad'
+P00965-ROOF,P00965,Roof,bad,2024,09/04/2016,invalid literal for int() with base 10: 'bad'
+P01000-HVAC,P01000,HVAC,bad,2025,17/09/2018,invalid literal for int() with base 10: 'bad'
+P01011-HVAC,P01011,HVAC,3,2020,,Duplicate component ID (valid first record retained)
+P01048-HVAC,P01048,HVAC,5,1915,2017-06-06,Parent property missing or quarantined
+P01048-INSULATION,P01048,Insulation,5,1999,27/12/2018,Parent property missing or quarantined
+P01048-ROOF,P01048,roof,3,1998,2020-07-01,Parent property missing or quarantined
+P01048-WINDOWS,P01048,Windows,3,2011,2022-02-02,Parent property missing or quarantined
+P01195-WINDOWS,P01195,Windows,bad,1977,19/02/2019,invalid literal for int() with base 10: 'bad'
+P01287-WINDOWS,P01287,Windows,bad,2025,2015-08-28,invalid literal for int() with base 10: 'bad'
+P01348-HVAC,P01348,HVAC,3,2005,2020-05-19,Duplicate component ID (valid first record retained)
+P01391-ROOF,P01391,roof,bad,2010,2023/10/14,invalid literal for int() with base 10: 'bad'
+P01410-INSULATION,P01410,Insulation,bad,1975,2017/01/25,invalid literal for int() with base 10: 'bad'
+P01417-HVAC,P01417,HVAC,3,2011,2020/02/12,Parent property missing or quarantined
+P01417-INSULATION,P01417,Insulation,4,1985,,Parent property missing or quarantined
+P01417-ROOF,P01417,Roof,2,2023,2023-12-17,Parent property missing or quarantined
+P01417-WINDOWS,P01417,Windows,5,1982,2021/12/14,Parent property missing or quarantined
+P01439-WINDOWS,P01439,Windows,bad,1974,2018/03/12,invalid literal for int() with base 10: 'bad'
+P01451-ROOF,P01451,Roof,bad,2010,19/03/2025,invalid literal for int() with base 10: 'bad'
+P01685-HVAC,P01685,HVAC,3,2000,2016-11-29,Duplicate component ID (valid first record retained)
+P01755-HVAC,P01755,hvac,5,1952,NULL,Parent property missing or quarantined
+P01755-INSULATION,P01755,insulation,3,2016,20/06/2020,Parent property missing or quarantined
+P01755-ROOF,P01755,roof,5,1941,18/06/2018,Parent property missing or quarantined
+P01755-WINDOWS,P01755,Windows,4,1970,16/01/2019,Parent property missing or quarantined
+P01760-ROOF,P01760,Roof,bad,2008,2024-08-26,invalid literal for int() with base 10: 'bad'
+P01807-HVAC,P01807,hvac,4,1975,2020-06-08,Parent property missing or quarantined
+P01807-INSULATION,P01807,insulation,5,1964,2015-10-03,Parent property missing or quarantined
+P01807-ROOF,P01807,roof,5,1946,2024-09-10,Parent property missing or quarantined
+P01807-WINDOWS,P01807,Windows,5,1956,2025/11/17,Parent property missing or quarantined
+P01947-WINDOWS,P01947,Windows,bad,1942,2021-10-20,invalid literal for int() with base 10: 'bad'
+P01955-ROOF,P01955,Roof,bad,1990,27/05/2018,invalid literal for int() with base 10: 'bad'
+P01987-ROOF,P01987,Roof,bad,1985,2024-06-10,invalid literal for int() with base 10: 'bad'
+P02022-HVAC,P02022,HVAC,3,2022,2024-09-21,Duplicate component ID (valid first record retained)
+P02073-INSULATION,P02073,Insulation,bad,1975,2019/03/08,invalid literal for int() with base 10: 'bad'
+P02101-ROOF,P02101,Roof,bad,2001,08/09/2017,invalid literal for int() with base 10: 'bad'
+P02327-HVAC,P02327,HVAC,bad,2021,2021/03/05,invalid literal for int() with base 10: 'bad'
+P02359-HVAC,P02359,HVAC,3,2021,2020/08/30,Duplicate component ID (valid first record retained)
+P02379-INSULATION,P02379,Insulation,bad,,06/05/2021,invalid literal for int() with base 10: 'bad'
+P02385-INSULATION,P02385,Insulation,bad,1947,2018/07/24,invalid literal for int() with base 10: 'bad'
+P02463-HVAC,P02463,HVAC,1,2025,2025/07/23,Parent property missing or quarantined
+P02463-INSULATION,P02463,Insulation,3,2005,2023-09-21,Parent property missing or quarantined
+P02463-ROOF,P02463,Roof,3,2009,2024-04-21,Parent property missing or quarantined
+P02463-WINDOWS,P02463,Windows,2,2014,2019/04/24,Parent property missing or quarantined
+P02545-WINDOWS,P02545,Windows,bad,2021,2024/07/06,invalid literal for int() with base 10: 'bad'
+P02547-ROOF,P02547,Roof,bad,2020,11/06/2017,invalid literal for int() with base 10: 'bad'
+P02634-WINDOWS,P02634,Windows,bad,2013,2019-05-05,invalid literal for int() with base 10: 'bad'
+P02648-ROOF,P02648,Roof,bad,2004,07/07/2022,invalid literal for int() with base 10: 'bad'
+P02696-HVAC,P02696,HVAC,5,1927,2021/03/20,Duplicate component ID (valid first record retained)
+P02727-ROOF,P02727,Roof,bad,1961,2018/09/07,invalid literal for int() with base 10: 'bad'
+P02730-INSULATION,P02730,Insulation,bad,1998,2015/10/22,invalid literal for int() with base 10: 'bad'
+P02763-INSULATION,P02763,Insulation,bad,,2025/07/07,invalid literal for int() with base 10: 'bad'
+P02783-ROOF,P02783,Roof,bad,1954,19/04/2017,invalid literal for int() with base 10: 'bad'
+P02987-HVAC,P02987,HVAC,bad,2015,2020/12/09,invalid literal for int() with base 10: 'bad'
+P03000-ROOF,P03000,Roof,bad,1905,02/12/2016,invalid literal for int() with base 10: 'bad'
+P03013-WINDOWS,P03013,Windows,bad,1985,04/02/2019,invalid literal for int() with base 10: 'bad'
+P03033-HVAC,P03033,HVAC,4,1991,2020/07/21,Duplicate component ID (valid first record retained)
+P03104-HVAC,P03104,HVAC,3,2001,03/05/2017,Parent property missing or quarantined
+P03104-INSULATION,P03104,Insulation,4,2000,09/09/2025,Parent property missing or quarantined
+P03104-ROOF,P03104,roof,1,2022,2020/06/06,Parent property missing or quarantined
+P03104-WINDOWS,P03104,windows,1,2024,2018-07-13,Parent property missing or quarantined
+P03170-ROOF,P03170,Roof,bad,2001,31/08/2022,invalid literal for int() with base 10: 'bad'
+P03266-WINDOWS,P03266,Windows,bad,1953,,invalid literal for int() with base 10: 'bad'
+P03370-HVAC,P03370,HVAC,5,1993,2021-02-23,Duplicate component ID (valid first record retained)
+P03379-HVAC,P03379,HVAC,bad,1999,,invalid literal for int() with base 10: 'bad'
+P03429-HVAC,P03429,HVAC,3,2005,2025-02-21,Parent property missing or quarantined
+P03429-INSULATION,P03429,Insulation,3,2006,2024-11-12,Parent property missing or quarantined
+P03429-ROOF,P03429,Roof,5,1956,2019-09-06,Parent property missing or quarantined
+P03429-WINDOWS,P03429,Windows,5,1969,2021-01-18,Parent property missing or quarantined
+P03436-HVAC,P03436,HVAC,bad,2006,2025/10/05,invalid literal for int() with base 10: 'bad'
+P03482-WINDOWS,P03482,Windows,bad,1974,24/01/2019,invalid literal for int() with base 10: 'bad'
+P03516-WINDOWS,P03516,Windows,bad,1980,2018/12/12,invalid literal for int() with base 10: 'bad'
+P03520-INSULATION,P03520,Insulation,bad,1979,23/08/2015,invalid literal for int() with base 10: 'bad'
+P03522-HVAC,P03522,HVAC,5,2002,17/10/2019,Parent property missing or quarantined
+P03522-INSULATION,P03522,Insulation,5,1935,2025/03/23,Parent property missing or quarantined
+P03522-ROOF,P03522,roof,3,,2021-10-19,Parent property missing or quarantined
+P03522-WINDOWS,P03522,Windows,5,1971,2018-12-16,Parent property missing or quarantined
+P03543-INSULATION,P03543,Insulation,bad,1925,2019-09-19,invalid literal for int() with base 10: 'bad'
+P03610-HVAC,P03610,HVAC,bad,1962,2023-03-02,invalid literal for int() with base 10: 'bad'
+P03684-HVAC,P03684,HVAC,4,2003,2016-12-02,Parent property missing or quarantined
+P03684-INSULATION,P03684,Insulation,2,2022,2020/06/16,Parent property missing or quarantined
+P03684-ROOF,P03684,Roof,2,2019,2018/02/06,Parent property missing or quarantined
+P03684-WINDOWS,P03684,Windows,3,2023,16/08/2025,Parent property missing or quarantined
+P03707-HVAC,P03707,HVAC,2,2018,2016-12-09,Duplicate component ID (valid first record retained)
+P03787-INSULATION,P03787,insulation,bad,2010,2025/08/07,invalid literal for int() with base 10: 'bad'
+P03878-INSULATION,P03878,Insulation,bad,1988,2017-06-01,invalid literal for int() with base 10: 'bad'
+P03882-HVAC,P03882,HVAC,bad,1938,2021-06-26,invalid literal for int() with base 10: 'bad'
+P03917-HVAC,P03917,hvac,bad,1987,2020-06-06,invalid literal for int() with base 10: 'bad'
+P03952-INSULATION,P03952,Insulation,bad,2008,30/04/2018,invalid literal for int() with base 10: 'bad'
+P04032-HVAC,P04032,HVAC,1,2025,2022-10-13,Parent property missing or quarantined
+P04032-INSULATION,P04032,Insulation,3,1998,05/02/2017,Parent property missing or quarantined
+P04032-ROOF,P04032,Roof,4,2010,2015-12-10,Parent property missing or quarantined
+P04032-WINDOWS,P04032,Windows,3,2005,2023-02-07,Parent property missing or quarantined
+P04042-HVAC,P04042,HVAC,3,,2020/09/18,Parent property missing or quarantined
+P04042-INSULATION,P04042,Insulation,1,2020,2018/06/23,Parent property missing or quarantined
+P04042-ROOF,P04042,Roof,1,2025,2022-10-12,Parent property missing or quarantined
+P04042-WINDOWS,P04042,Windows,1,2021,2021/05/20,Parent property missing or quarantined
+P04044-HVAC,P04044,HVAC,4,1980,2017/11/22,Duplicate component ID (valid first record retained)
+P04075-HVAC,P04075,HVAC,bad,1953,11/06/2023,invalid literal for int() with base 10: 'bad'
+P04088-WINDOWS,P04088,Windows,bad,1950,2022-03-21,invalid literal for int() with base 10: 'bad'
+P04197-WINDOWS,P04197,Windows,bad,2020,2021/02/23,invalid literal for int() with base 10: 'bad'
+P04212-HVAC,P04212,HVAC,5,1924,20/02/2022,Parent property missing or quarantined
+P04212-INSULATION,P04212,Insulation,4,1976,2017/08/23,Parent property missing or quarantined
+P04212-ROOF,P04212,Roof,3,,NULL,Parent property missing or quarantined
+P04212-WINDOWS,P04212,Windows,3,2017,2021/01/12,Parent property missing or quarantined
+P04213-HVAC,P04213,HVAC,5,1971,2020-12-17,Parent property missing or quarantined
+P04213-INSULATION,P04213,Insulation,5,1961,2023-10-30,Parent property missing or quarantined
+P04213-ROOF,P04213,Roof,5,1970,2024-11-28,Parent property missing or quarantined
+P04213-WINDOWS,P04213,Windows,1,2013,05/05/2017,Parent property missing or quarantined
+P04221-HVAC,P04221,HVAC,2,2020,12/05/2018,Parent property missing or quarantined
+P04221-INSULATION,P04221,Insulation,3,2025,2022/04/30,Parent property missing or quarantined
+P04221-ROOF,P04221,Roof,4,,,Parent property missing or quarantined
+P04221-WINDOWS,P04221,Windows,5,1974,04/08/2017,Parent property missing or quarantined
+P04279-HVAC,P04279,HVAC,1,2012,2020-09-01,Parent property missing or quarantined
+P04279-INSULATION,P04279,Insulation,4,1996,2019-10-31,Parent property missing or quarantined
+P04279-ROOF,P04279,Roof,5,1983,2017/12/17,Parent property missing or quarantined
+P04279-WINDOWS,P04279,Windows,3,2017,07/03/2018,Parent property missing or quarantined
+P04311-WINDOWS,P04311,Windows,bad,1963,2016/09/15,invalid literal for int() with base 10: 'bad'
+P04333-HVAC,P04333,HVAC,4,2001,2025-10-02,Parent property missing or quarantined
+P04333-INSULATION,P04333,Insulation,2,2006,06/01/2025,Parent property missing or quarantined
+P04333-ROOF,P04333,Roof,3,2006,2022-02-12,Parent property missing or quarantined
+P04333-WINDOWS,P04333,Windows,bad,2024,12/03/2025,Parent property missing or quarantined
+P04381-HVAC,P04381,HVAC,1,2025,2017/10/05,Duplicate component ID (valid first record retained)
+P04564-HVAC,P04564,HVAC,bad,2007,2023/03/18,invalid literal for int() with base 10: 'bad'
+P04718-HVAC,P04718,HVAC,2,2024,2021/10/31,Duplicate component ID (valid first record retained)
+P04793-HVAC,P04793,hvac,bad,1968,2025-11-04,invalid literal for int() with base 10: 'bad'
+P04828-ROOF,P04828,Roof,bad,2024,2017/12/12,invalid literal for int() with base 10: 'bad'
+P05007-ROOF,P05007,Roof,bad,,2016-06-16,invalid literal for int() with base 10: 'bad'
+P05024-INSULATION,P05024,Insulation,bad,1940,2023-09-25,invalid literal for int() with base 10: 'bad'
+P05049-HVAC,P05049,HVAC,bad,1957,2025-10-22,invalid literal for int() with base 10: 'bad'
+P05055-HVAC,P05055,hvac,5,1978,2018-01-25,Duplicate component ID (valid first record retained)
+P05087-HVAC,P05087,HVAC,4,2001,16/11/2018,Parent property missing or quarantined
+P05087-INSULATION,P05087,Insulation,1,,06/02/2025,Parent property missing or quarantined
+P05087-ROOF,P05087,Roof,2,1995,2024-01-06,Parent property missing or quarantined
+P05087-WINDOWS,P05087,Windows,2,2015,2024-05-08,Parent property missing or quarantined
+P05106-WINDOWS,P05106,Windows,bad,1995,2024/12/24,invalid literal for int() with base 10: 'bad'
+P05174-HVAC,P05174,hvac,bad,2017,01/09/2020,invalid literal for int() with base 10: 'bad'
+P05244-INSULATION,P05244,insulation,bad,2007,28/11/2015,invalid literal for int() with base 10: 'bad'
+P05290-WINDOWS,P05290,Windows,bad,1997,2020/03/26,invalid literal for int() with base 10: 'bad'
+P05292-ROOF,P05292,Roof,bad,2006,07/02/2023,invalid literal for int() with base 10: 'bad'
+P05305-HVAC,P05305,HVAC,bad,1956,13/10/2024,invalid literal for int() with base 10: 'bad'
+P05310-HVAC,P05310,HVAC,2,2014,2015-08-14,Parent property missing or quarantined
+P05310-INSULATION,P05310,Insulation,3,2025,2021/12/01,Parent property missing or quarantined
+P05310-ROOF,P05310,Roof,3,,2020/06/16,Parent property missing or quarantined
+P05310-WINDOWS,P05310,windows,5,1936,2015-09-08,Parent property missing or quarantined
+P05326-HVAC,P05326,hvac,bad,1964,2021-05-26,invalid literal for int() with base 10: 'bad'
+P05392-HVAC,P05392,HVAC,5,1984,2016-05-22,Duplicate component ID (valid first record retained)
+P05420-HVAC,P05420,HVAC,4,2018,2020/06/20,Parent property missing or quarantined
+P05420-INSULATION,P05420,Insulation,2,2016,2020-04-01,Parent property missing or quarantined
+P05420-ROOF,P05420,Roof,2,2018,30/10/2022,Parent property missing or quarantined
+P05420-WINDOWS,P05420,Windows,4,1984,2016/07/05,Parent property missing or quarantined
+P05439-WINDOWS,P05439,Windows,bad,2025,2024-04-10,invalid literal for int() with base 10: 'bad'
+P05459-HVAC,P05459,HVAC,bad,1933,2019-01-06,invalid literal for int() with base 10: 'bad'
+P05473-WINDOWS,P05473,Windows,bad,1972,2016-04-25,invalid literal for int() with base 10: 'bad'
+P05484-ROOF,P05484,Roof,bad,2017,2022/11/30,invalid literal for int() with base 10: 'bad'
+P05496-HVAC,P05496,HVAC,bad,2022,04/10/2019,invalid literal for int() with base 10: 'bad'
+P05513-WINDOWS,P05513,Windows,bad,2013,2021-03-28,invalid literal for int() with base 10: 'bad'
+P05641-ROOF,P05641,Roof,bad,1978,04/12/2023,invalid literal for int() with base 10: 'bad'
+P05661-HVAC,P05661,HVAC,3,2016,2015/12/26,Parent property missing or quarantined
+P05661-INSULATION,P05661,Insulation,5,1953,17/09/2021,Parent property missing or quarantined
+P05661-ROOF,P05661,Roof,5,2000,22/06/2016,Parent property missing or quarantined
+P05661-WINDOWS,P05661,Windows,5,1907,2018-10-20,Parent property missing or quarantined
+P05685-HVAC,P05685,HVAC,3,2012,2025-04-26,Parent property missing or quarantined
+P05685-INSULATION,P05685,Insulation,3,2015,2019-06-06,Parent property missing or quarantined
+P05685-ROOF,P05685,Roof,4,2018,2021/06/14,Parent property missing or quarantined
+P05685-WINDOWS,P05685,windows,2,2025,15/11/2023,Parent property missing or quarantined
+P05729-HVAC,P05729,HVAC,3,2022,2016-04-09,Duplicate component ID (valid first record retained)
+P05795-WINDOWS,P05795,Windows,bad,1966,04/09/2020,invalid literal for int() with base 10: 'bad'
+P05816-HVAC,P05816,HVAC,bad,1982,11/09/2023,invalid literal for int() with base 10: 'bad'
+P05854-WINDOWS,P05854,Windows,bad,1997,24/04/2020,invalid literal for int() with base 10: 'bad'
+P05872-INSULATION,P05872,Insulation,bad,1907,2019-05-06,invalid literal for int() with base 10: 'bad'
+P05925-ROOF,P05925,Roof,bad,1992,07/06/2023,invalid literal for int() with base 10: 'bad'
+P05946-INSULATION,P05946,Insulation,bad,2005,2015-10-22,invalid literal for int() with base 10: 'bad'

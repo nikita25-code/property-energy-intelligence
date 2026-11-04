@@ -1,0 +1,21 @@
+{
+  "total_properties": 5975,
+  "average_energy_score": 3.81,
+  "unknown_energy_ratings": 154,
+  "total_estimated_retrofit_cost_dkk": 25723335281.8,
+  "portfolio_weighted_cost_per_m2_dkk": 886.27,
+  "high_priority_properties": 2847,
+  "properties_with_imputed_fields": 377,
+  "average_energy_rating_approx": "D",
+  "total_components": 23811,
+  "total_sites": 2006,
+  "total_assets": 53572,
+  "total_inspections": 53572,
+  "total_interventions": 37508,
+  "theoretical_annual_savings_kwh": 1412182443.3,
+  "not_inspected_systems": 7551,
+  "currency": "DKK",
+  "data_source": "synthetic",
+  "cost_model": "assumption_based_scenario_not_ml",
+  "scenario_year": 2026
+}

@@ -1,0 +1,24 @@
+services:
+  intelligence-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      PLANNER_MODE: ${PLANNER_MODE:-rules}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1-mini}
+    volumes:
+      # Raw CSV and audit reports remain accessible in the Windows project folder.
+      - ./data:/app/data
+      # SQLite lives on Docker's Linux filesystem, not a Windows bind mount.
+      # This avoids SQLite open/rename/locking issues on Docker Desktop.
+      - property_energy_db:/app/state
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  property_energy_db:
