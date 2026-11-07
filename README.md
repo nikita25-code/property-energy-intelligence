@@ -1,5 +1,3 @@
-**🎥 2-minute Loom walkthrough:** `PASTE_YOUR_LOOM_SHARE_URL_HERE` *(record after publishing; see [recording script](docs/demo_script.md))*
-
 # Property Energy Intelligence
 
 **From fragmented facility data to an explainable 2030 retrofit shortlist.**
@@ -8,11 +6,27 @@ An interactive, API-backed data-engineering and decision-support portfolio case 
 
 > **Launch the dashboard at [http://localhost:8000](http://localhost:8000)** after starting Docker. The interface supports portfolio analytics, property filtering, component detail panels and evidence-backed questions without writing JSON by hand.
 
-![Dashboard with portfolio KPIs, energy ratings and investment distribution](docs/dashboard-preview.png)
-
-**New in v3:** asset-level inventory and transparent quantity-based cost calculations, site/system/inspection lineage, an interactive 2027–2030 investment roadmap, missing-assessment visibility, and expanded natural-language queries. [View roadmap screenshot](docs/roadmap-preview.png) · [Asset detail screenshot](docs/assets-preview.png) · [Read the full asset model](docs/asset-model.md).
-
 **Data ethics:** All 6,000 generated buildings are *fictional*. The 2026 unit rates, estimated costs and priority scores are illustrative assumptions, **not actual government data, contractor quotations, verified predictions or evidence of meeting 2030 regulations**. No ML model was trained on historical costs.
+
+## Application screenshots
+
+The screenshots below show the implemented interface with the deterministic synthetic dataset. The figures are illustrative scenario outputs, not real-world valuations.
+
+**Portfolio dashboard** — Validated property KPIs, energy-rating distribution, investment categories and priority watchlist.
+
+![Energy Portfolio Intelligence dashboard with portfolio KPIs, energy ratings and investment distribution](docs/dashboard-preview.png)
+
+**Asset-level explorer** — Building information, asset condition, assessment evidence and assumption-based costs.
+
+![Energy Portfolio Intelligence asset-level explorer and component detail](docs/assets-preview.png)
+
+**2030 investment roadmap** — Annual budget allocation, investment priorities and transparent scenario assumptions.
+
+![Energy Portfolio Intelligence 2027–2030 investment planning roadmap](docs/roadmap-preview.png)
+
+[Mobile roadmap preview](docs/mobile-roadmap.png) · [Asset data model](docs/asset-model.md) · [Frontend implementation](docs/frontend.md)
+
+### Architecture
 
 ![Property Energy Intelligence architecture](docs/architecture.svg)
 
@@ -232,10 +246,8 @@ The **31 automated tests** cover frontend file serving, breakdown reconciliation
 
 **Useful extensions for a real employer:** connect consented/public authoritative property datasets; calibrate the cost model against historical tenders; model uncertainty intervals and independent savings verification; introduce authenticated user roles; evaluate accuracy and false positives of the LLM planner; deploy with production observability.
 
-## Demo and publishing
+## Additional documentation
 
-Follow the timed [2-minute Loom script](docs/demo_script.md). Add the actual Loom share URL to **the first line of this README** once the screen recording exists. This repository intentionally does not contain an invented video URL.
-
-See [publish to GitHub](docs/publishing.md) for the exact `git` / `gh` commands to create the `property-energy-intelligence` repository and push this code.
+The [frontend guide](docs/frontend.md) describes the app's API-backed views and verification. The [architecture decisions](docs/decisions.md) document the implementation trade-offs, while [assumptions and limitations](docs/assumptions.md) explain the scope of the fictional scenario.
 
 **License:** MIT. Original scenario, demo code and explicitly fictional generated data.
